@@ -1,0 +1,71 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav {
+    background: #f4f4f4;
+    padding: 10px;
+    text-align: center; /* Centrar el contenido de la navbar */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; /* Alineación en línea */
+    margin: 0 10px; /* Espaciado entre elementos */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+section {
+    padding: 20px;
+    max-width: 800px; /* Máximo ancho para la sección */
+    margin: auto; /* Centrar la sección */
+}
+
+.product-gallery {
+    display: flex;
+    flex-wrap: wrap; /* Permitir que los productos se envuelvan */
+    justify-content: center; /* Centrar la galería */
+}
+
+.product {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    flex: 1 1 200px; /* Flexbox para responsividad */
+}
+
+.product img {
+    max-width: 150px; /* Hacer la imagen más pequeña */
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    background: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
